@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2B21F11E514F55001826E0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21F01E514F55001826E0 /* MediaPlayer.framework */; };
+		EC2B21F51E514F62001826E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21F21E514F62001826E0 /* AudioToolbox.framework */; };
+		EC2B21F61E514F62001826E0 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21F31E514F62001826E0 /* MediaToolbox.framework */; };
+		EC2B21F71E514F62001826E0 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21F41E514F62001826E0 /* VideoToolbox.framework */; };
+		EC2B21F91E514F69001826E0 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21F81E514F69001826E0 /* libbz2.1.0.tbd */; };
+		EC2B21FB1E514F72001826E0 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21FA1E514F72001826E0 /* libz.1.2.8.tbd */; };
+		EC2B21FD1E514F87001826E0 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21FC1E514F87001826E0 /* libc++.1.tbd */; };
+		EC2B21FF1E514F91001826E0 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B21FE1E514F91001826E0 /* libiconv.2.4.0.tbd */; };
+		EC2B22011E514FA0001826E0 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B22001E514FA0001826E0 /* libstdc++.6.0.9.tbd */; };
+		EC2B22031E514FB0001826E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B22021E514FB0001826E0 /* AVFoundation.framework */; };
+		EC2B22071E514FC3001826E0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B22041E514FC3001826E0 /* CoreAudio.framework */; };
+		EC2B22081E514FC3001826E0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B22051E514FC3001826E0 /* CoreMedia.framework */; };
+		EC2B22091E514FC3001826E0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2B22061E514FC3001826E0 /* CoreVideo.framework */; };
+		EC5E739D1E650B6C00204F68 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E739C1E650B6C00204F68 /* MobileVLCKit.framework */; };
+		EC5E73A01E66997B00204F68 /* lyh.h264 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E739F1E66997B00204F68 /* lyh.h264 */; };
+		EC9E64DD1E514A1F00BA589E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64DC1E514A1F00BA589E /* main.m */; };
+		EC9E64E01E514A1F00BA589E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64DF1E514A1F00BA589E /* AppDelegate.m */; };
+		EC9E64E31E514A1F00BA589E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64E21E514A1F00BA589E /* ViewController.m */; };
+		EC9E64E61E514A1F00BA589E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9E64E41E514A1F00BA589E /* Main.storyboard */; };
+		EC9E64E81E514A1F00BA589E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9E64E71E514A1F00BA589E /* Assets.xcassets */; };
+		EC9E64EB1E514A1F00BA589E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9E64E91E514A1F00BA589E /* LaunchScreen.storyboard */; };
+		EC9E65051E514A5400BA589E /* LivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64F41E514A5400BA589E /* LivingViewController.m */; };
+		EC9E65061E514A5400BA589E /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64F61E514A5400BA589E /* LocalViewController.m */; };
+		EC9E65071E514A5400BA589E /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64F81E514A5400BA589E /* PlayerViewController.m */; };
+		EC9E65081E514A5400BA589E /* TVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64FA1E514A5400BA589E /* TVCollectionViewCell.m */; };
+		EC9E65091E514A5400BA589E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64FD1E514A5400BA589E /* Player.m */; };
+		EC9E650A1E514A5400BA589E /* ReadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E64FF1E514A5400BA589E /* ReadFile.m */; };
+		EC9E650C1E514A5400BA589E /* TVSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E65011E514A5400BA589E /* TVSource.m */; };
+		EC9E650D1E514A5400BA589E /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EC9E65021E514A5400BA589E /* 1.mp4 */; };
+		EE3A3CF7D101C96CB2E79D4B /* libPods-TSVLCFrameworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A8D526E2F207DF0DCF3A /* libPods-TSVLCFrameworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D44F4B5DE1460AF7DE93A3 /* Pods-TSVLCFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSVLCFrameworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSVLCFrameworkDemo/Pods-TSVLCFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3062A44098D885824CAB0057 /* Pods-TSVLCFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSVLCFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSVLCFrameworkDemo/Pods-TSVLCFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB1A8D526E2F207DF0DCF3A /* libPods-TSVLCFrameworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSVLCFrameworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2B21F01E514F55001826E0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EC2B21F21E514F62001826E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC2B21F31E514F62001826E0 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		EC2B21F41E514F62001826E0 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		EC2B21F81E514F69001826E0 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		EC2B21FA1E514F72001826E0 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		EC2B21FC1E514F87001826E0 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		EC2B21FE1E514F91001826E0 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		EC2B22001E514FA0001826E0 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EC2B22021E514FB0001826E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC2B22041E514FC3001826E0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EC2B22051E514FC3001826E0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EC2B22061E514FC3001826E0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EC5E739C1E650B6C00204F68 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = TSVLCFrameworkDemo/MobileVLCKit.framework; sourceTree = "<group>"; };
+		EC5E739F1E66997B00204F68 /* lyh.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lyh.h264; sourceTree = "<group>"; };
+		EC9E64D81E514A1F00BA589E /* TSVLCFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSVLCFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9E64DC1E514A1F00BA589E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9E64DE1E514A1F00BA589E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9E64DF1E514A1F00BA589E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9E64E11E514A1F00BA589E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9E64E21E514A1F00BA589E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9E64E51E514A1F00BA589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9E64E71E514A1F00BA589E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9E64EA1E514A1F00BA589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9E64EC1E514A1F00BA589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9E64F31E514A5400BA589E /* LivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingViewController.h; sourceTree = "<group>"; };
+		EC9E64F41E514A5400BA589E /* LivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingViewController.m; sourceTree = "<group>"; };
+		EC9E64F51E514A5400BA589E /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		EC9E64F61E514A5400BA589E /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		EC9E64F71E514A5400BA589E /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		EC9E64F81E514A5400BA589E /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		EC9E64F91E514A5400BA589E /* TVCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCollectionViewCell.h; sourceTree = "<group>"; };
+		EC9E64FA1E514A5400BA589E /* TVCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCollectionViewCell.m; sourceTree = "<group>"; };
+		EC9E64FC1E514A5400BA589E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		EC9E64FD1E514A5400BA589E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		EC9E64FE1E514A5400BA589E /* ReadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadFile.h; sourceTree = "<group>"; };
+		EC9E64FF1E514A5400BA589E /* ReadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadFile.m; sourceTree = "<group>"; };
+		EC9E65011E514A5400BA589E /* TVSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVSource.m; sourceTree = "<group>"; };
+		EC9E65021E514A5400BA589E /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		EC9E65031E514A5400BA589E /* TVSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVSource.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9E64D51E514A1F00BA589E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2B22071E514FC3001826E0 /* CoreAudio.framework in Frameworks */,
+				EC2B22081E514FC3001826E0 /* CoreMedia.framework in Frameworks */,
+				EC2B22091E514FC3001826E0 /* CoreVideo.framework in Frameworks */,
+				EC2B22031E514FB0001826E0 /* AVFoundation.framework in Frameworks */,
+				EC2B22011E514FA0001826E0 /* libstdc++.6.0.9.tbd in Frameworks */,
+				EC2B21FF1E514F91001826E0 /* libiconv.2.4.0.tbd in Frameworks */,
+				EC2B21FD1E514F87001826E0 /* libc++.1.tbd in Frameworks */,
+				EC2B21FB1E514F72001826E0 /* libz.1.2.8.tbd in Frameworks */,
+				EC2B21F91E514F69001826E0 /* libbz2.1.0.tbd in Frameworks */,
+				EC2B21F51E514F62001826E0 /* AudioToolbox.framework in Frameworks */,
+				EC5E739D1E650B6C00204F68 /* MobileVLCKit.framework in Frameworks */,
+				EC2B21F61E514F62001826E0 /* MediaToolbox.framework in Frameworks */,
+				EC2B21F71E514F62001826E0 /* VideoToolbox.framework in Frameworks */,
+				EC2B21F11E514F55001826E0 /* MediaPlayer.framework in Frameworks */,
+				EE3A3CF7D101C96CB2E79D4B /* libPods-TSVLCFrameworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6220BD286D42E90D4B39995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E739C1E650B6C00204F68 /* MobileVLCKit.framework */,
+				EC2B22041E514FC3001826E0 /* CoreAudio.framework */,
+				EC2B22051E514FC3001826E0 /* CoreMedia.framework */,
+				EC2B22061E514FC3001826E0 /* CoreVideo.framework */,
+				EC2B22021E514FB0001826E0 /* AVFoundation.framework */,
+				EC2B22001E514FA0001826E0 /* libstdc++.6.0.9.tbd */,
+				EC2B21FE1E514F91001826E0 /* libiconv.2.4.0.tbd */,
+				EC2B21FC1E514F87001826E0 /* libc++.1.tbd */,
+				EC2B21FA1E514F72001826E0 /* libz.1.2.8.tbd */,
+				EC2B21F81E514F69001826E0 /* libbz2.1.0.tbd */,
+				EC2B21F21E514F62001826E0 /* AudioToolbox.framework */,
+				EC2B21F31E514F62001826E0 /* MediaToolbox.framework */,
+				EC2B21F41E514F62001826E0 /* VideoToolbox.framework */,
+				EC2B21F01E514F55001826E0 /* MediaPlayer.framework */,
+				6CB1A8D526E2F207DF0DCF3A /* libPods-TSVLCFrameworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9E64CF1E514A1F00BA589E = {
+			isa = PBXGroup;
+			children = (
+				EC9E64DA1E514A1F00BA589E /* TSVLCFrameworkDemo */,
+				EC9E64D91E514A1F00BA589E /* Products */,
+				FE5C5773D00639F734A0C34B /* Pods */,
+				B6220BD286D42E90D4B39995 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9E64D91E514A1F00BA589E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E64D81E514A1F00BA589E /* TSVLCFrameworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9E64DA1E514A1F00BA589E /* TSVLCFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E739F1E66997B00204F68 /* lyh.h264 */,
+				EC9E64F21E514A5400BA589E /* Views */,
+				EC9E64FB1E514A5400BA589E /* Controllers */,
+				EC9E65011E514A5400BA589E /* TVSource.m */,
+				EC9E65021E514A5400BA589E /* 1.mp4 */,
+				EC9E65031E514A5400BA589E /* TVSource.h */,
+				EC9E64DE1E514A1F00BA589E /* AppDelegate.h */,
+				EC9E64DF1E514A1F00BA589E /* AppDelegate.m */,
+				EC9E64E11E514A1F00BA589E /* ViewController.h */,
+				EC9E64E21E514A1F00BA589E /* ViewController.m */,
+				EC9E64E41E514A1F00BA589E /* Main.storyboard */,
+				EC9E64E71E514A1F00BA589E /* Assets.xcassets */,
+				EC9E64E91E514A1F00BA589E /* LaunchScreen.storyboard */,
+				EC9E64EC1E514A1F00BA589E /* Info.plist */,
+				EC9E64DB1E514A1F00BA589E /* Supporting Files */,
+			);
+			path = TSVLCFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		EC9E64DB1E514A1F00BA589E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E64DC1E514A1F00BA589E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9E64F21E514A5400BA589E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E64F31E514A5400BA589E /* LivingViewController.h */,
+				EC9E64F41E514A5400BA589E /* LivingViewController.m */,
+				EC9E64F51E514A5400BA589E /* LocalViewController.h */,
+				EC9E64F61E514A5400BA589E /* LocalViewController.m */,
+				EC9E64F71E514A5400BA589E /* PlayerViewController.h */,
+				EC9E64F81E514A5400BA589E /* PlayerViewController.m */,
+				EC9E64F91E514A5400BA589E /* TVCollectionViewCell.h */,
+				EC9E64FA1E514A5400BA589E /* TVCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9E64FB1E514A5400BA589E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E64FC1E514A5400BA589E /* Player.h */,
+				EC9E64FD1E514A5400BA589E /* Player.m */,
+				EC9E64FE1E514A5400BA589E /* ReadFile.h */,
+				EC9E64FF1E514A5400BA589E /* ReadFile.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE5C5773D00639F734A0C34B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3062A44098D885824CAB0057 /* Pods-TSVLCFrameworkDemo.debug.xcconfig */,
+				01D44F4B5DE1460AF7DE93A3 /* Pods-TSVLCFrameworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9E64D71E514A1F00BA589E /* TSVLCFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9E64EF1E514A1F00BA589E /* Build configuration list for PBXNativeTarget "TSVLCFrameworkDemo" */;
+			buildPhases = (
+				B34F4D3E685BBD49770BCDD3 /* [CP] Check Pods Manifest.lock */,
+				EC9E64D41E514A1F00BA589E /* Sources */,
+				EC9E64D51E514A1F00BA589E /* Frameworks */,
+				EC9E64D61E514A1F00BA589E /* Resources */,
+				3B8F05DC5CC862AC76A3ABF3 /* [CP] Embed Pods Frameworks */,
+				91FD3D78DB0623CBDF2E18CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSVLCFrameworkDemo;
+			productName = TSVLCFrameworkDemo;
+			productReference = EC9E64D81E514A1F00BA589E /* TSVLCFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9E64D01E514A1F00BA589E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					EC9E64D71E514A1F00BA589E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K3KX659AR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC9E64D31E514A1F00BA589E /* Build configuration list for PBXProject "TSVLCFrameworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9E64CF1E514A1F00BA589E;
+			productRefGroup = EC9E64D91E514A1F00BA589E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9E64D71E514A1F00BA589E /* TSVLCFrameworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9E64D61E514A1F00BA589E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E64EB1E514A1F00BA589E /* LaunchScreen.storyboard in Resources */,
+				EC9E64E81E514A1F00BA589E /* Assets.xcassets in Resources */,
+				EC5E73A01E66997B00204F68 /* lyh.h264 in Resources */,
+				EC9E650D1E514A5400BA589E /* 1.mp4 in Resources */,
+				EC9E64E61E514A1F00BA589E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B8F05DC5CC862AC76A3ABF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSVLCFrameworkDemo/Pods-TSVLCFrameworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FD3D78DB0623CBDF2E18CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSVLCFrameworkDemo/Pods-TSVLCFrameworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34F4D3E685BBD49770BCDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9E64D41E514A1F00BA589E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9E650A1E514A5400BA589E /* ReadFile.m in Sources */,
+				EC9E65091E514A5400BA589E /* Player.m in Sources */,
+				EC9E65081E514A5400BA589E /* TVCollectionViewCell.m in Sources */,
+				EC9E64E31E514A1F00BA589E /* ViewController.m in Sources */,
+				EC9E650C1E514A5400BA589E /* TVSource.m in Sources */,
+				EC9E65061E514A5400BA589E /* LocalViewController.m in Sources */,
+				EC9E65051E514A5400BA589E /* LivingViewController.m in Sources */,
+				EC9E64E01E514A1F00BA589E /* AppDelegate.m in Sources */,
+				EC9E64DD1E514A1F00BA589E /* main.m in Sources */,
+				EC9E65071E514A5400BA589E /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC9E64E41E514A1F00BA589E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9E64E51E514A1F00BA589E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9E64E91E514A1F00BA589E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9E64EA1E514A1F00BA589E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9E64ED1E514A1F00BA589E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9E64EE1E514A1F00BA589E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9E64F01E514A1F00BA589E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3062A44098D885824CAB0057 /* Pods-TSVLCFrameworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSVLCFrameworkDemo",
+				);
+				INFOPLIST_FILE = TSVLCFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSVLCFrameworkDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSVLCFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9E64F11E514A1F00BA589E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D44F4B5DE1460AF7DE93A3 /* Pods-TSVLCFrameworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSVLCFrameworkDemo",
+				);
+				INFOPLIST_FILE = TSVLCFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSVLCFrameworkDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSVLCFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9E64D31E514A1F00BA589E /* Build configuration list for PBXProject "TSVLCFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E64ED1E514A1F00BA589E /* Debug */,
+				EC9E64EE1E514A1F00BA589E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9E64EF1E514A1F00BA589E /* Build configuration list for PBXNativeTarget "TSVLCFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E64F01E514A1F00BA589E /* Debug */,
+				EC9E64F11E514A1F00BA589E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9E64D01E514A1F00BA589E /* Project object */;
+}
